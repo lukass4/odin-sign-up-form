@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign In Form</title>
+</head>
+<body>
+    <main>
+        <div class="left-wrapper">
+            <div class="left-text">
+                <img class="logo" src="/logo.png"/>
+                <p>TATE</p>
+            </div>
+        </div>
+        <div class="right-wrapper">
+            <header>
+                <p class="quote-text">This is not the real world. You know you need to escape the matrix and overpower them with your income. Breathe air. Join the real world now.</p>
+                <p class="quote-text">What colour is <span class="italics">your</span> Bugatti?</p>
+            </header>
+            <form>
+                <div class="form-wrapper">
+                    <h2>Top G</h2>
+                    <div class="form-options">
+                        <div class="form-left">
+                            <div class="form-div">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name">
+                            </div><div class="form-div">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="name">
+                            </div><div class="form-div">
+                            <label for="phone-number">PASSWORD</label>
+                            <input type="password" class="error" name="password">
+                            </div>
+                        </div>
+                        <div class="form-right">
+                            <div class="form-div">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name">
+                            </div><div class="form-div">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel" name="phone-number" pattern="[0-9]{8}">
+                            </div><div class="form-div">
+                            <label for="phone-number">CONFIRM PASSWORD</label>
+                            <input type="password" class="error" name="confirm-password">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <input type="submit" value="Create Account">
+                    <p>Already have an account? <span class="green">Log in</span></p>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
